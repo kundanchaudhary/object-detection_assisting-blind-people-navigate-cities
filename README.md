@@ -1,1 +1,1 @@
-# object-detection-from-scratch
+# custom-made-object-detection
