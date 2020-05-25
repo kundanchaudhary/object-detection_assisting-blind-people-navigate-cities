@@ -14,7 +14,11 @@ from __future__ import absolute_import
 import os
 import io
 import pandas as pd
+# import tensorflow as tf
+
 import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 from PIL import Image
 from object_detection.utils import dataset_util
@@ -29,18 +33,16 @@ FLAGS = flags.FLAGS
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'nine':
+    if row_label == 'person':
         return 1
-    elif row_label == 'ten':
+    elif row_label == 'pole':
         return 2
-    elif row_label == 'jack':
+    elif row_label == 'car':
         return 3
-    elif row_label == 'queen':
+    elif row_label == 'tree':
         return 4
-    elif row_label == 'king':
+    elif row_label == 'traffic light':
         return 5
-    elif row_label == 'ace':
-        return 6
     else:
         None
 
