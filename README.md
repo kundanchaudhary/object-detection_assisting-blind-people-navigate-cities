@@ -1,1 +1,1 @@
-# custom-made-object-detection
+# custom-object-detection
