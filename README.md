@@ -17,6 +17,9 @@ I was able to demonstrate the performance of my custom-made object recognition m
 ## References:
 
 [1] https://towardsdatascience.com/training-tensorflow-object-detection-api-with-custom-dataset-for-working-in-javascript-and-vue-js-6634e0f33e03
+
 [2] https://towardsdatascience.com/creating-your-own-object-detector-ad69dda69c85
+
 [3] https://github.com/rafaelpadilla/Object-Detection-Metrics
+
 [4] https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/
